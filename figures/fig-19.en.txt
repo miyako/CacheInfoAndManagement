@@ -1,0 +1,29 @@
+Expression
+Value
+Line Objects
+1S Variables
+& Current Form Values
+® Constants
+Ir Semaphores
+Break
+Processes
+© Information
+405 180 Ko / 409 600 Ko (98%)
+© Cache Statistics
+@ Form event code
+0
+546 Ko
+© Stack Space
+541 Ko
+© Minima stack Space
+66 782 524 Ko
+© Physical Memory Size
+© Free Memory
+53 867 924 Ko
+634.000 Ko
+© Used Physical Memory
+72.945 960 Ko
+© Used Virtual Memory
+> Owed
+Selected Process: Manager
+UpdateTime 2s

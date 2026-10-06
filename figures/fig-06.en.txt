@@ -1,0 +1,35 @@
+BY 40 Server
+Backup Data Web Server
+File
+Edit
+Process
+Help
+(reel asa)
+[E20 Server
+4D Server version 2003,
+© 4D SA 1985-2004,
+Stucture:
+Connected Uses}
+Data File:
+PL_2003.4DD
+Running:
+Log File:
+Total Memary:
+Activ:
+Cache Memary:
+10 240K
+Cache Hit Ratio:
+Users
+@ Tine
+Status
+Ratio
+Kernel
+00:00:12
+0%
+WY: User
+Executing
+Client Manas
+Executing
+Lo Web Server
+: Manager
+00:00:00

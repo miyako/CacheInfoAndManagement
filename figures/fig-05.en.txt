@@ -1,0 +1,18 @@
+@ 4D Customizer Plus File Edit Option
+Properties : New_2003_DB
+Database properties
+platform interface
+Platform
+Default font
+Regular size
+Large size
+Message font
+Humber of ticks between calls to 0S
+number of ticks per all to 08
+Minimum number of ticks per call to 0S
+Cache Memory
+Use new memory allocation scheme (Macintosh only)
+Maximum cache (Macintosh & Windows)
+Minimum cache (Macintosh only)
+TWEE Server
+\WEB Server TCP port number

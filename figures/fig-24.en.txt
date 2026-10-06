@@ -1,0 +1,78 @@
+Graph SVG P_11
+DATE:
+IME REPORT
+NB USERS
+USER PROCESS
+USED CACHE (KB)
+CACHE (MB)
+USED RAM (KB)
+FREE MEMORY (KB)
+MIN:
+0
+v7
+56.484
+100 000
+420 720
+62.503 392
+MAX: — Report_2024_07_05_09_04 25.txt
+50
+233
+228
+38.995 792
+120 000
+44176 576
+188 438 032
+Draw
+Draw
+Draw
+Draw
+Draw
+Draw
+Draw
+1252
+Graph title: studio M2 Ultra 24 Cores, 192 GB or Ram
+Cancel
+Update
+Report
+scrolt
+Save
+svG
+svG
+AD Server 204 LTS Public release une 20, 2024)
+01 Jul 2024
+Nbusers Nb count user process
+31 107 583 KB
+Used cache size
+Cache size
+Used Ram
+Free Memory
+14:19:47
+50
+222
+178
+120 000 MB.
+34546 608KB 75 594 496 KB
+260,
+195
+240.
+180
+220
+165
+200.
+150
+180
+135
+160
+120
+140.
+105
+120
+100.
+75
+45
+15
+Used Ram
+ep Marna
+Nb tasks
+Nb count user process
+Used cache size Cache size

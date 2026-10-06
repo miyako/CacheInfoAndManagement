@@ -1,0 +1,24 @@
+@ 4th Dimension
+File
+Edit
+Use
+Design
+Tools
+Structure
+Help
+Preferences
+@ interface
+Set CPU Priority to:
+Application
+Database Cache Memory
+= System Resources
+jum Cach
+Minimum Cache:
+1024 Kb
+Client/Server
+Se Design mode
+© Use New Memory Allocation Scheme on Macintosh
+@ Database
+Flush Data Buffers every
+15 Minutes
+‘Compilation

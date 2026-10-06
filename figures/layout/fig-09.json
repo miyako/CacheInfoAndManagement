@@ -1,0 +1,143 @@
+{
+ "source": "fig-09.png",
+ "page": 7,
+ "width_pt": 382.5,
+ "localize": false,
+ "items": [
+  {
+   "box": [
+    556,
+    133,
+    51,
+    9
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    84,
+    162,
+    46,
+    9
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    9,
+    184,
+    34,
+    9
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    125,
+    218,
+    57,
+    9
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    441,
+    218,
+    46,
+    12
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    135,
+    237,
+    35,
+    9
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    91,
+    410,
+    16,
+    9
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    154,
+    410,
+    38,
+    9
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    409,
+    410,
+    38,
+    12
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    79,
+    430,
+    30,
+    9
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    154,
+    430,
+    35,
+    9
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    420,
+    430,
+    25,
+    9
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    467,
+    440,
+    45,
+    28
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    93,
+    450,
+    14,
+    9
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    154,
+    450,
+    29,
+    9
+   ],
+   "align": "center"
+  }
+ ]
+}

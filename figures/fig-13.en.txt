@@ -1,0 +1,17 @@
+General Interface Compiler Database Moving Backup
+SQL PHP. Security Compatibility
+Client-server
+web
+Data storage Memory
+Database Cache Settings
+(CiCalculation of adaptive cache
+Size: 4000 MB
+Apply
+Physical Memory:
+65217 MB.
+‘Current Cache:
+4000 MB
+1024 MB
+Cache on Restart:
+15, Seconds
+Flush Cache every:

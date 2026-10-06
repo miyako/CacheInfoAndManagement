@@ -50,10 +50,10 @@
   },
   "caption": {
     "italic": true,
-    "min_x": 71
+    "min_x": 10000
   },
   "table": {
     "size": null
   },
-  "$comment": "Document-specific settings. Run `make inspect` and review; see tools/config.py for all keys and defaults."
+  "$comment": "Document-specific settings. Run `make inspect` and review; see tools/config.py for all keys and defaults. No real figure captions: italic 'Note:' lines are body notes, so captions are disabled via min_x."
 }

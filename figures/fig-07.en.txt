@@ -1,0 +1,16 @@
+@ Watch | & Process| HB Break| Catch
+Selected Process:
+Update Time:
+Expression
+Value
+Information
+=) @ Cache Statistics
+Kb/ 10 240 Kb (0%), 19 handles
+Global Hit
+93%
+Records
+0%
+© index Pages
+0%
+© Transactions
+0%

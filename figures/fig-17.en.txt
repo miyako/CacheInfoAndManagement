@@ -1,0 +1,10 @@
+Options
+Filtering commands and project methods in the
+Enabled for all
+formula editor and the 4D View Pro and 4D Write
+O Disable forthe Designer and the Administrator
+Pro documents:
+O Disabled for all
+‘The change wil be effective the next start ©
+@ Enable User Settings
+"On Host Database Event method of the components

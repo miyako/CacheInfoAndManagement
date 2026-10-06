@@ -1,0 +1,26 @@
+Structure Settings
+wal
+dee
+General
+Interface Compiler Database Moving Backup Client-server
+web
+sal
+PHP
+Security Compatibility
+Data storage Memory
+Database Cache Settings
+of adaptive cache
+Memory to be reserved for other applications and for the system:
+512 MB
+50 %
+Percentage of available memory used for cache:
+Minimum Size: 100 MB
+Maximum Size: 400 MB
+Physical Memory:
+65217 MB
+Current Cache:
+1024 MB.
+400 MB.
+Cache on Restart:
+20 _ Seconds
+Flush Cache every:

@@ -1,0 +1,11 @@
+Soe
+new_DB_20- 4D Server Administration
+Maintenance Application Server SQL Server:
+Monitor
+Users (1)
+Processes (25)
+HTTP Server Real Time Monitor
+400.00 MB
+45mn
+381.27 MB
+Cache ¥

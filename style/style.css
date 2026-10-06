@@ -102,3 +102,10 @@ table { border-collapse: collapse; margin: 0.4em auto 1em; font-size: 10pt; }
 th, td { border-bottom: 1px solid #ccc; padding: 0.25em 1.2em; }
 th { text-align: left; border-bottom: 1.5px solid #888; }
 td:last-child, th:last-child { text-align: right; }
+
+/* Notes (italic "Note:" boxes in the original) and quoted reference text */
+p.note { font-size: 10pt; background: #e8eef8; border-left: 3px solid var(--accent, #2f5496); padding: 0.3em 0.7em; }
+blockquote { margin: 0.4em 0 0.8em 1.5em; padding: 0; }
+
+/* Text tables in this note: keep descriptions left-aligned */
+td:last-child, th:last-child { text-align: left; }

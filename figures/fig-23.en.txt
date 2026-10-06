@@ -1,0 +1,9 @@
+2 ®
+ADJUST INDEX CACHE PRIORITY
+ADJUST TABLE CACHE PRIORITY
+Get adjusted blobs cache priority
+Get adjusted index cache priority
+Get adjusted table cache priority
+SET BLOBS CACHE PRIORITY
+SET INDEX CACHE PRIORITY
+SET TABLE CACHE PRIORITY

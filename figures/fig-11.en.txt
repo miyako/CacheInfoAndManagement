@@ -1,0 +1,1 @@
+Used cachesize Cachesize Max free block Used Ram
