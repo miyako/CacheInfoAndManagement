@@ -24,10 +24,6 @@ The following versions of 4D/4D Server are required for the Technical Note:
 
 ## A brief history of the Cache settings in 4D
 
-Cache has always existed in 4D, as it is the optimal intermediate way to access structure and data from the files. Until recently, connected hard disk(s) were slow compared to SSD, and with small capacity. 4D was directly managing memory space for the cache set for the database.
-
-In version 6.0, the Cache settings were very limited, mainly the Maximum Cache:
-
 Cache has always existed in 4D, as it provides the optimal intermediate way to access structure and data from the files. Not too long ago, connected hard disks were much slower compared to SSDs and had smaller capacities. In earlier versions, 4D directly managed the memory space for the cache set for the database.
 
 In version 6.0, the cache settings were very limited, mainly to the Maximum Cache size:
@@ -145,10 +141,6 @@ By default, in a new project, the following settings are applied (adapted for De
 - Calculation of adaptive cache is checked
 
 ![](fig-16)
-
-Be aware that the Maximum Size is set to 400 MB, despite the 50 % percentage of available memory used for the cache, even with a large amount of Ram available.
-
-Don’t forget to enlarge this Maximum Size value when the data files are growing, or the database is deployed.
 
 Note that the maximum size is set to 400 MB, despite 50% of the available memory being used for the cache, even when a significant amount of RAM is available.
 
