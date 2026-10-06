@@ -131,6 +131,9 @@ Always check with `make review` (original above, localised below).
 3. Markdown → HTML (`fenced_code`, `tables`, `attr_list`).
    - The cover comes from the first lines of `<tgt>.md`, and the TOC is generated from the headings.
    - Figures become `<figure>` with `width:{width_pt}pt`.
+   - Bare `http(s)://` URLs outside code become links (`a { word-break: break-all }`), so long URLs wrap
+     instead of stretching justified CJK lines.
+   - Notes can be marked with `{: .note}` on the line after the paragraph.
 4. The CSS is `style/style.css` plus injected `:root{--accent}` and `@page{size}`. Chrome is run headless twice;
    the second pass fills in the TOC page numbers found with pymupdf.
 5. The output is `build/<output_pdf>`. Compare its page count with the original: ±2 pages is normal.

@@ -99,6 +99,8 @@ def to_html(md_text: str, toc_pages: dict, lang: str) -> str:
             in_code = not in_code
         if not in_code:
             l = re.sub(r"^(#{2,4}) (.+)$", heading, l)
+            # Bare URLs become links so they can wrap without stretching justified lines.
+            l = re.sub(r"(?<![<(\w])(https?://[^\s<>）)*]*[^\s<>）).,:;*])", r"<\1>", l)
         out.append(l)
     body_md = "\n".join(out)
 
