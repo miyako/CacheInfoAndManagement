@@ -37,6 +37,7 @@ The workflow and checkpoints are in `.github/copilot-instructions.md`. This file
 | `skip_pages` | 1-based pages not extracted (cover, original TOC); both are regenerated |
 | `header_y`, `footer_y` | Lines with top above `header_y` or below `footer_y` (pt) are dropped |
 | `heading.fonts` | Substrings of font names that mark headings; with `heading.min_size` |
+| `heading.colors` | Optional: a heading line must contain a span in one of these colours (filters bold body text of the same size) |
 | `heading.levels_by_x` | `{"x": level}`: heading level by left x (nearest within 6 pt); otherwise `default_level` |
 | `code.colors` | Hex colours of syntax-highlighted code spans (Word exports code as coloured text) |
 | `code.fonts` | Monospace font substrings; `code.indent` = minimum x offset for code continuation lines |
