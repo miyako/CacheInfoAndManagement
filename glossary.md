@@ -37,6 +37,33 @@ Full-width `（）` and `：` in prose. First occurrence of a technical term: �
 
 | English | 日本語 | Notes |
 |---|---|---|
+| cache | キャッシュ | |
+| Runtime Explorer | ランタイムエクスプローラー | |
+| Administration window | 管理ウィンドウ | |
+| Structure Settings | ストラクチャー設定 | |
+| User Settings / User Settings for Data file | ユーザー設定 / データファイルのユーザー設定 | as in the 4D ja UI (fig-18) |
+| Use User Settings (checkbox) | ユーザー設定を有効にする | Structure Settings > Security (fig-17) |
+| Calculation of adaptive cache | 起動時にキャッシュサイズを計算 | UI label in the 4D ja UI |
+| Apply (button) | 適用 | |
+| flush / flush frequency | フラッシュ / フラッシュ頻度 | |
+| Max Free block | 最大空きブロック | |
+| purge | パージ | |
+| Design mode | デザインモード | |
+| 4D Remote | 4Dリモート | |
+| headless mode | ヘッドレスモード | |
+| service | サービス | |
+| Monitor (page) | モニター | |
+| Frequently (refresh) | Frequently | not localised in the 4D UI |
+| stored procedure | ストアドプロシージャー | |
+| entity set | エンティティセット | |
+| Longint / Text array / Real array | 倍長整数 / テキスト配列 / 実数配列 | |
+| input / output | 入力 / 出力 | |
+| elementary properties | 基本プロパティ | |
+| ORDA cache | ORDAキャッシュ | |
+| polygon (4D_Info_Report graph) | ポリゴン | |
+| Technical Note | テクニカルノート | |
+| Note: | 注： | note boxes |
+| command names (GET MEMORY STATISTICS, Cache info…) | (unchanged) | kept in English, as in the 4D ja docs |
 
 ## Proper nouns in examples
 

@@ -1,0 +1,19 @@
+Data storage Memory
+Database Cache Settings
+© calculation of adaptive cache
+Memory to be reserved for other applications and for the system:
+512 MB
+Percentage of available memory used for cad
+50 %
+Size:
+100 MB
+400 MB
+Maximum Size:
+Physical Memory:
+Current Cache:
+400 MB
+65217 MB
+400 MB
+Cache on Restart:
+Flush Cache every:
+‘Seconds

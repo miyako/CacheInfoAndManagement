@@ -1,0 +1,60 @@
+NB USERS
+NBTASKS USER PROCESS
+USED CACHE (KB)
+‘CACHE (MB)
+USED RAM (KB)
+USED VIRTUAL MEM (KB)
+DATE-TIME REPORT:
+Report
+24.1
+MIN:
+8098
+1536
+102.668
+1895164
+Report
+27 5
+MAX:
+175
+172
+1566193,
+1536
+367615,
+1891376
+3118992
+3.02 20_12.27 3
+Draw
+raw
+Draw
+Draw
+raw
+Draw
+Draw
+620)
+Graph title: [oad t
+] SVG) (“attention
+‘on Amazon, up to 586 users (up to 1175 process)
+Nb. Reports
+Cancel
+with 4D Server 13.2 HEL, report created every 6-7 seconds
+620)
+Nb tasks Used cache size
+Cache size
+mer. 20 févr. 2013
+Max free block Used Ram
+Used Virtual Mem
+1 433 807 KB
+1536 MB
+1891376KB 3118992 KB
+12:27:34
+586
+4475
+4172
+231 KB
+1200}
+1000
+1500
+1000
+Nbusers Nbtasks Nb countuser process
+Used cachesize Cachesize Max free block
+Used Ram Used Virtual Mem

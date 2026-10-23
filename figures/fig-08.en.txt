@@ -1,0 +1,45 @@
+Sei)
+Users (1)
+Processes (26)
+Maintenance
+Application Server
+SQL Server
+HTIP Server
+Real Time Monitor
+100.00 MB,
+30mn
+90.45 MB
+Cache ¥
+System Information
+Hard drive
+Memory
+952 68
+Machine:
+63.69 GB
+system:
+ind
+10 oF greater, 64-bit
+Processor
+Intel) Core(TM
+) CPU @ 3.60GHz
+IP Address:
+Any
+Application information
+Version: 17 RS build 17R5.240287
+Volume Shadow Copy: Not applicable
+Maximum connections
+Data:
+468 MB
+Used by 4D:
+286 MB
+App. Server: 10(1 Used)
+Others:
+915 6B
+Others:
+27.62 GB
+SQL Sener 8
+Free:
+37GB
+Free:
+35,79 GB
+feb Server: Unlimited

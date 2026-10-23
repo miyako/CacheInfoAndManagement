@@ -1,0 +1,18 @@
+Ath Dimension
+File Edit Use Design Tools
+Method Colors Help
+cal =
+Database Properties
+Scheduler
+Number of ticks betvieen calls to 0S:
+7
+Maximum number af ticks per call to 0S:
+3
+Minimum numberof ticks per callto 0S:
+Database Cache Memary
+Use New Memoyy Allocation Scheme on Macintosh
+Maximum Cache:
+Application Main Memory
+Blocks of Each
+Scien Updates:
+T Accelerated Screen Updates (Requires Extta Memory)

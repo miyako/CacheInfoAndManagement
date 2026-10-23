@@ -1,0 +1,244 @@
+{
+ "source": "fig-12.png",
+ "page": 9,
+ "width_pt": 395.5,
+ "localize": false,
+ "items": [
+  {
+   "box": [
+    89,
+    10,
+    100,
+    12
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    356,
+    44,
+    31,
+    27
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    637,
+    47,
+    28,
+    24
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    11,
+    77,
+    40,
+    8
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    64,
+    77,
+    339,
+    10
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    422,
+    77,
+    24,
+    8
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    474,
+    77,
+    19,
+    9
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    525,
+    77,
+    19,
+    8
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    565,
+    77,
+    120,
+    10
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    24,
+    117,
+    122,
+    28
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    48,
+    153,
+    128,
+    12
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    234,
+    170,
+    99,
+    32
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    233,
+    210,
+    340,
+    12
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    615,
+    210,
+    42,
+    9
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    621,
+    225,
+    31,
+    28
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    322,
+    235,
+    251,
+    12
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    496,
+    260,
+    162,
+    9
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    494,
+    285,
+    164,
+    9
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    486,
+    360,
+    85,
+    10
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    588,
+    360,
+    53,
+    8
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    496,
+    377,
+    75,
+    8
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    589,
+    377,
+    46,
+    8
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    584,
+    383,
+    49,
+    28
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    482,
+    394,
+    89,
+    8
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    578,
+    436,
+    111,
+    25
+   ],
+   "align": "center"
+  },
+  {
+   "box": [
+    475,
+    443,
+    96,
+    12
+   ],
+   "align": "center"
+  }
+ ],
+ "replace": "fig-12-ja.png",
+ "replace_width_pt": 451.3
+}

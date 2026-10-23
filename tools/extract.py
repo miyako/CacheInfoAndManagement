@@ -74,8 +74,13 @@ def is_code_line(item, body_x):
     return item["x"] >= body_x + CFG["code"]["indent"]
 
 
-def is_heading(fonts, size):
+HEADING_COLORS = {int(c.lstrip("#"), 16) for c in CFG["heading"].get("colors", [])}
+
+
+def is_heading(fonts, size, colors=()):
     h = CFG["heading"]
+    if HEADING_COLORS and not HEADING_COLORS & set(colors):
+        return False
     return size >= h["min_size"] and any(any(f in font for f in h["fonts"]) for font in fonts)
 
 
@@ -199,7 +204,8 @@ def extract_body(doc):
                 prev = None
                 continue
 
-            if is_heading(fonts, size) and not is_code_line(it, it["x"] + 1000):
+            colors = {s["color"] for s in it["spans"] if s["text"].strip()}
+            if is_heading(fonts, size, colors) and not is_code_line(it, it["x"] + 1000):
                 flush_all()
                 near = [x for x in HEADING_LEVEL_BY_X if abs(x - it["x"]) <= 6]
                 level = (HEADING_LEVEL_BY_X[min(near, key=lambda x: abs(x - it["x"]))] if near

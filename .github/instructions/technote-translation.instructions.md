@@ -37,6 +37,7 @@ The workflow and checkpoints are in `AGENTS.md`. This file is a technical refere
 | `skip_pages` | 1-based pages not extracted (cover, original TOC); both are regenerated |
 | `header_y`, `footer_y` | Lines with top above `header_y` or below `footer_y` (pt) are dropped |
 | `heading.fonts` | Substrings of font names that mark headings; with `heading.min_size` |
+| `heading.colors` | Optional: a heading line must contain a span in one of these colours (filters bold body text of the same size) |
 | `heading.levels_by_x` | `{"x": level}`: heading level by left x (nearest within 6 pt); otherwise `default_level` |
 | `code.colors` | Hex colours of syntax-highlighted code spans (Word exports code as coloured text) |
 | `code.fonts` | Monospace font substrings; `code.indent` = minimum x offset for code continuation lines |
@@ -130,6 +131,9 @@ Always check with `make review` (original above, localised below).
 3. Markdown → HTML (`fenced_code`, `tables`, `attr_list`).
    - The cover comes from the first lines of `<tgt>.md`, and the TOC is generated from the headings.
    - Figures become `<figure>` with `width:{width_pt}pt`.
+   - Bare `http(s)://` URLs outside code become links (`a { word-break: break-all }`), so long URLs wrap
+     instead of stretching justified CJK lines.
+   - Notes can be marked with `{: .note}` on the line after the paragraph.
 4. The CSS is `style/style.css` plus injected `:root{--accent}` and `@page{size}`. Chrome is run headless twice;
    the second pass fills in the TOC page numbers found with pymupdf.
 5. The output is `build/<output_pdf>`. Compare its page count with the original: ±2 pages is normal.
