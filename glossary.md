@@ -42,7 +42,7 @@ Full-width `（）` and `：` in prose. First occurrence of a technical term: �
 | Administration window | 管理ウィンドウ | |
 | Structure Settings | ストラクチャー設定 | |
 | User Settings / User Settings for Data file | ユーザー設定 / データファイル用のユーザー設定 | |
-| Calculation of adaptive cache | キャッシュの適応計算 | UI label; to verify against the 4D ja UI |
+| Calculation of adaptive cache | 起動時にキャッシュサイズを計算 | UI label in the 4D ja UI |
 | Apply (button) | 適用 | |
 | flush / flush frequency | フラッシュ / フラッシュ頻度 | |
 | Max Free block | 最大空きブロック | |
@@ -52,7 +52,7 @@ Full-width `（）` and `：` in prose. First occurrence of a technical term: �
 | headless mode | ヘッドレスモード | |
 | service | サービス | |
 | Monitor (page) | モニター | |
-| Frequently (refresh) | 頻繁 | UI label; to verify |
+| Frequently (refresh) | Frequently | not localised in the 4D UI |
 | stored procedure | ストアドプロシージャー | |
 | entity set | エンティティセット | |
 | Longint / Text array / Real array | 倍長整数 / テキスト配列 / 実数配列 | |

@@ -80,7 +80,7 @@ Thomas SCHLUMBERGER（4D France テクニカルサポートエンジニア）
 
 ![](fig-12)
 
-「キャッシュの適応計算」のチェックを外すと「適用」ボタンが表示され、キャッシュサイズの値の変更を確定できます。
+「起動時にキャッシュサイズを計算」のチェックを外すと「適用」ボタンが表示され、キャッシュサイズの値の変更を確定できます。
 
 ![](fig-13)
 
@@ -138,7 +138,7 @@ Thomas SCHLUMBERGER（4D France テクニカルサポートエンジニア）
 
 新規プロジェクトでは、デフォルトで次の設定が適用されます（デザインモード向け）：
 
-- 「キャッシュの適応計算」がチェックされている
+- 「起動時にキャッシュサイズを計算」がチェックされている
 
 ![](fig-16)
 
@@ -207,7 +207,7 @@ https://blog.4d.com/headless-4d-applications/
 
 ![](fig-20)
 
-*注：管理ウィンドウの左下隅を右クリックすると表示される隠しポップアップで、更新頻度を変更できます（デフォルトは「頻繁」）。*
+*注：管理ウィンドウの左下隅を右クリックすると表示される隠しポップアップで、更新頻度を変更できます（デフォルトは「Frequently」）。*
 {: .note}
 
 ![](fig-21)
@@ -241,7 +241,7 @@ End if
 
 ### GET MEMORY STATISTICSを使用する
 
-**GET MEMORY STATISTICS**（4D v13で**GET CACHE STATISTICS**から名称変更、20 R7以降は**MEMORY STATISTICS**に名称変更）。このコマンドは、4D/4D Serverのメモリ使用量とキャッシュ使用量に関する情報を提供します。実際の値は
+**GET MEMORY STATISTICS**（4D v13で**GET CACHE STATISTICS**から名称変更、20 R7以降は**MEMORY STATISTICS**に名称変更）。このコマンドは、4D/4D Serverのメモリ使用量とキャッシュ使用量に関する情報を提供します。
 
 **GET MEMORY STATISTICS** (info type ; arrNames ; arrValues ; arrCount)
 

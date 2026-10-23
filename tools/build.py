@@ -61,10 +61,13 @@ def check(en: str, tr: str, lang: str) -> list:
     return problems
 
 
-def fig_width(name: str) -> float:
-    """Printed width of the figure in the original PDF, in points."""
-    layout = ROOT / "figures" / "layout" / f"{name}.json"
-    return json.loads(layout.read_text())["width_pt"]
+def fig_width(name: str, lang: str = "") -> float:
+    """Printed width of the figure in points: the original width, or `replace_width_pt`
+    for a replacement image in the target language (its aspect ratio may differ)."""
+    layout = json.loads((ROOT / "figures" / "layout" / f"{name}.json").read_text())
+    if lang == CFG["target_lang"] and layout.get("replace") and layout.get("replace_width_pt"):
+        return layout["replace_width_pt"]
+    return layout["width_pt"]
 
 
 def slug(n: int) -> str:
@@ -104,10 +107,12 @@ def to_html(md_text: str, toc_pages: dict, lang: str) -> str:
         out.append(l)
     body_md = "\n".join(out)
 
+    # Other languages (e.g. an English preview) use the original images, not the localised ones.
+    fig_dir = "figures" if lang == CFG["target_lang"] else "../figures"
     body = markdown.markdown(body_md, extensions=["fenced_code", "tables", "attr_list"])
     body = re.sub(
         r'<p><img alt="([^"]*)" src="(fig-\d+)" /></p>',
-        lambda m: (f'<figure><img src="figures/{m.group(2)}.png" alt="" style="width:{fig_width(m.group(2))}pt">'
+        lambda m: (f'<figure><img src="{fig_dir}/{m.group(2)}.png" alt="" style="width:{fig_width(m.group(2), lang)}pt">'
                    + (f"<figcaption>{m.group(1)}</figcaption>" if m.group(1) else "")
                    + "</figure>"),
         body)
