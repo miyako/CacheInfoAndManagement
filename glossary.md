@@ -41,7 +41,8 @@ Full-width `（）` and `：` in prose. First occurrence of a technical term: �
 | Runtime Explorer | ランタイムエクスプローラー | |
 | Administration window | 管理ウィンドウ | |
 | Structure Settings | ストラクチャー設定 | |
-| User Settings / User Settings for Data file | ユーザー設定 / データファイル用のユーザー設定 | |
+| User Settings / User Settings for Data file | ユーザー設定 / データファイルのユーザー設定 | as in the 4D ja UI (fig-18) |
+| Use User Settings (checkbox) | ユーザー設定を有効にする | Structure Settings > Security (fig-17) |
 | Calculation of adaptive cache | 起動時にキャッシュサイズを計算 | UI label in the 4D ja UI |
 | Apply (button) | 適用 | |
 | flush / flush frequency | フラッシュ / フラッシュ頻度 | |
